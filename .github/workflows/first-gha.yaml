@@ -1,0 +1,9 @@
+name : Run Shell Command
+on: [push,fork]
+jobs:
+  run-shell-command:
+    name: Run a one-line script
+    runs-on: ubuntu-latest
+    steps:
+    - name: Echo a String
+      run: echo "Hello, Security Gurus!, First GHA Workflow" 
