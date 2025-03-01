@@ -1,3 +1,4 @@
+name: OWASP ZAP Scan Action
 on: [push]
 
 jobs:
